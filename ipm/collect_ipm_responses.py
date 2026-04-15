@@ -17,7 +17,7 @@ load_dotenv("/opt/merlin_crawlers/llm_as_judge/.env")
 # -----------------------------
 DATASET_PATH = "ipm_questions.csv"
 OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
-THIA_API_KEY = os.environ["THIA_API_KEY"]
+EXTBOT_API_KEY = os.environ["EXTBOT_API_KEY"]
 EXTBOT_URL = os.environ.get(
     "EXTBOT_URL",
     "https://api.extensionbot.thiaplatform.ai/api/chat",

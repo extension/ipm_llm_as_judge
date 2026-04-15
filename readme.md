@@ -8,7 +8,7 @@ This is an **LLM evaluation framework** that evaluates ExtensionBot against GPT 
 
 Requires a `.env` file with:
 ```
-THIA_API_KEY="..." This is ExtensionBot specific
+EXTBOT_API_KEY="..." This is ExtensionBot specific
 OPENROUTER_API_KEY="..."
 ```
 
@@ -50,7 +50,7 @@ Question CSV → collect_*.py → response JSONL → score_*.py → judgment JSO
 ```
 ### Evaluated Models
 
-- **ExtBot** — via THIA platform API (`https://api.extensionbot.thiaplatform.ai/api/chat`)
+- **ExtBot** — via ExtensionBot API
 - **GPT-5** — via OpenRouter
 - **Gemini 2.5 Pro** — via OpenRouter
 

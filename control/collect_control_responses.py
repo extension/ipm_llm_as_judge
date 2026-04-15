@@ -19,7 +19,7 @@ DATASET_PATH = "control_question_set.csv"
 
 # Hard-coded keys, matching your current pattern
 OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
-THIA_API_KEY = os.environ["THIA_API_KEY"]
+EXTBOT_API_KEY = os.environ["EXTBOT_API_KEY"]
 
 EXTBOT_URL = os.environ.get(
     "EXTBOT_URL",
@@ -125,7 +125,7 @@ def ask_extbot(question: str) -> dict:
         EXTBOT_URL,
         headers={
             "accept": "application/json",
-            "Authorization": f"Bearer {THIA_API_KEY}",
+            "Authorization": f"Bearer {EXTBOT_API_KEY}",
             "Content-Type": "application/json",
         },
         json=payload,
