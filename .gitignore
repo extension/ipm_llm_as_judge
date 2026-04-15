@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Generated outputs — responses, judgments, metrics
+*.jsonl
+*_metrics_*.csv
+
+# Scratch / legacy run directories
+initial/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
