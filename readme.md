@@ -1,7 +1,7 @@
 ## Overview
 
 This is an **LLM evaluation framework** that evaluates ExtensionBot against GPT & Gemini and using Claude as an automated judge:
-- **Control Benchmark**: General knowledge / non-agricultural questions
+- **Control Benchmark**: General knowledge / non-agricultural questions; the idea here is that when I run the evaluation I would expect to see ExtensionBot score lower on the Control Benchmark as compared to the IPM Benchmark.
 - **IPM Benchmark**: Agricultural Integrated Pest Management domain-specific questions
   <img width="2898" height="1472" alt="image" src="https://github.com/user-attachments/assets/98734c1c-e68a-4757-ac4a-887639743493" />
 ## Environment Setup
